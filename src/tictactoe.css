@@ -1,0 +1,68 @@
+h1 {
+    font: 60px "Lobster";
+    color:rgb(163, 2, 98);
+    align-self: center;
+}
+
+button {
+    font: 24px "Times New Roman";
+    color:rgb(213, 45, 0);
+}
+
+body {
+    background: rgb(255, 154, 86);
+    font: 24px "Times New Roman", Futura, sans-serif;
+    color: rgb(213, 45, 0);
+    margin: 20px;
+}
+  
+ol, ul {
+    padding-left: 30px;
+    color:rgb(213, 45, 0);
+}
+  
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+  
+.status {
+    margin-bottom: 10px;
+    color:rgb(163, 2, 98);
+}
+  
+.square {
+    background: rgb(211, 98, 164);
+    border: 2px solid rgb(163, 2, 98);
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 68px;
+    height: 68px;
+    margin-right: -2px;
+    margin-top: -2px;
+    padding: 0;
+    text-align: center;
+    width: 68px;
+}
+  
+.square:focus {
+    outline: none;
+}
+  
+.kbd-navigation .square:focus {
+    background: rgb(255, 154, 86);
+}
+  
+.game {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+  
+.game-info {
+    margin-left: 20px;
+}
